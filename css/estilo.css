@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* BODY */
+
+h1 {
+    background-color: rgb(184, 26, 26);
+    border-radius: 10px;
+    font-size: 40px;
+    text-decoration: double;
+}
+
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+}
+
+/* HEADER */
+
+.tituloPrincipal {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(184, 26, 26)
+    
+}
+
+.buttonInicio {
+    background-color:  rgb(184, 26, 26);
+    padding:10px 10px;
+    border: 10px;
+    border-radius: 20px;
+}
+
+
+.fondoT {
+    background-color: white;
+    padding: 10px 20px;
+}
+
+.botonBuscar {
+    background-color: rgb(184, 26, 26);
+    color: black;
+    border-color: gray;
+    border-radius: 10%;
+}
+    
+
+header {
+    border-bottom: 1px solid black ;
+    text-align: right;
+    padding: 20px 20px;
+}
+
+.titulo {
+    text-align: center;
+    color: rgb(3, 3, 3);
+    
+}
+
+.misTitulos:hover {
+    background-color: rgb(184, 26, 26);
+    color: black;
+    border-radius: 10px;
+
+}
+
+.titulo2 {
+    text-align: center;
+    color: rgb(184, 26, 26);
+}
+
+.logo {
+    width: 95px;
+}
+
+nav ul li {
+    margin: 0 10px;
+    display: inline-block;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+    font-weight: bold;   
+}
+
+/* main */
+
+.tituloPrincipal {
+    text-align: center;
+    margin: 20px;
+    padding: auto;
+    text-decoration: underline;
+}
+
+.videoCamion {
+    width:800px;
+    height: 800px;
+
+}
+
+main {
+    margin: 20px;
+    padding: 30px;
+}
+
+.tituloCamiones {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(148, 57, 57)
+
+
+}
+    
+/*PRODUCTOS*/
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+
+}
+
+.btn {
+   background-color: red;
+   border: solid black 0px;
+   border-radius: 10px;
+
+}
+
+.row {
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 30px;
+    padding: 20px;
+}
+
+.card-title{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.tituloDos {
+    background-color: rgb(219, 86, 86);
+    color: rgb(0, 0, 0);
+    border: 10px;
+    border-radius: 30px;
+    margin: 20px 750px;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 15px;
+}
+
+
+.contenedorCamiones {
+    margin: 50px;
+    padding: 50px;
+    border-radius: 100px;
+}
+
+.imgCamiones1  {
+    width:800px;
+    height:600px;
+
+}
+
+.imgCamiones2 {
+    width:800px;
+    height:600px;
+}
+
+
+.imgCamiones3 {
+    width:800px;
+    height:600px
+}
+
+/*CONSECIONARIA */
+
+.tituloC {
+    text-decoration-line: underline;
+    color: rgb(148, 57, 57)
+}
+
+/* CONTACTO */
+
+.tituloContacto {
+    text-decoration-line: underline;
+    color: rgb(148, 57, 57)
+}
+
+.mapaConsecionaria {
+    width: 100px;
+    height: 100px;
+}
+
+
+/*FOOTER */
+
+footer {
+    margin: 50px;
+    padding: 20px;
+    border-top: 1px solid red;
+    text-align: center;
+
+}
+
+/* SERVICIOS*/
+
+.tituloServicios {
+    text-decoration-line: underline;
+    color: rgb(148, 57, 57)
+
+}
+
+/* IFRAME */
+
+iframe {
+    display: block;
+    margin: auto;
+    padding: 100px;
+
+}
+
+/* FORMULARIO */
+
+form {
+    margin-top: 10px;
+}
+
+label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: black;
+    border-radius: 10px;
+}
+
+label{
+    display: list-item;
+    
+    border-radius: 10px;
+    font-size: 20px ;
+    margin-bottom: 2px;
+
+}
