@@ -24,6 +24,9 @@ body {
 
 /* HEADER */
 
+
+
+
 .tituloPrincipal {
     text-decoration: none;
     text-transform: uppercase;
@@ -53,9 +56,11 @@ body {
     
 
 header {
-    border-bottom: 1px solid black ;
+    border-bottom: 1px solid red;
     text-align: right;
     padding: 20px 20px;
+   
+
 }
 
 .titulo {
@@ -73,7 +78,10 @@ header {
 
 .titulo2 {
     text-align: center;
-    color: rgb(184, 26, 26);
+    color: rgba(129, 20, 20, 0.664);
+    font-family: lato;
+    margin: 50px 0px;
+    font-size:40px;
 }
 
 .logo {
@@ -94,6 +102,23 @@ a {
 }
 
 /* main */
+.descripcionP{
+    width: 100%;
+    background-color: rgb(223, 96, 96);
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.tituloH3{
+    text-align: center;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 30px;
+}
 
 .tituloPrincipal {
     text-align: center;
@@ -104,7 +129,7 @@ a {
 
 .videoCamion {
     width:800px;
-    height: 800px;
+    height: 600px;
 
 }
 
@@ -124,9 +149,15 @@ main {
     
 /*PRODUCTOS*/
 
+
+
 .contenedor{
     display: flex;
     justify-content: center;
+    min-width: 300px;
+    flex-direction: row;
+
+
 
 }
 
@@ -156,11 +187,11 @@ main {
 
 
 .tituloDos {
-    background-color: rgb(219, 86, 86);
+    background-color: rgb(231, 231, 231);
     color: rgb(0, 0, 0);
     border: 10px;
     border-radius: 30px;
-    margin: 20px 750px;
+    margin: 20px 0px;
     font-size: 20px;
     text-align: center;
     text-transform: uppercase;
@@ -261,3 +292,15 @@ label{
     margin-bottom: 2px;
 
 }
+
+
+/*MEDIA QUERIES*/
+
+@media (max-width:900px) and (min-width:400px){
+    .body{
+        flex-wrap: wrap;
+    }
+
+    .CamionesTipos
+        
+    }
